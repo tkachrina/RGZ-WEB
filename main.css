@@ -1,0 +1,193 @@
+body {
+    background: radial-gradient(circle, #afafaf 1px, transparent 1px);
+    background-size: 2.99px 2.99px; 
+    background-color: #d6d6d6;
+  }
+
+aside {
+    width: 10%;
+    height:100vh;
+    right: -90.4%;
+    position: relative;
+    background-color: white;
+    top: -8px;
+}
+
+.naming {
+    font-size: 1.15vw;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 22px;
+}
+
+.realPosition {
+    color: #e41b13;
+    opacity: 1;
+    padding-bottom: 2px;
+    padding-left: 26px;
+    left: -1px;
+}
+
+aside a {
+    align-items: center;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    left: 28px;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding-left: 26px;
+    left: -1px;
+}
+
+aside a:hover {
+    color: red;
+}
+
+.redLine1 {
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    height: 51px;
+    top: 285px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.redLine2 {
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    height: 92px;
+    top: 450px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.redLine3 {
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    height: 82px;
+    top: 644px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.redLine4 {
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    height: 59px;
+    top: 819px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a1:hover ~ .redLine2 {
+    height: 51px;
+    top: 285px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s;
+}
+
+.a1:hover ~ .redLine3 {
+    height: 51px;
+    top: 285px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a1:hover ~ .redLine4 {
+    height: 51px;
+    top: 285px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+
+.a2:hover ~ .redLine1 {
+    height: 92px;
+    top: 450px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a2:hover ~ .redLine3 {
+    height: 92px;
+    top: 450px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a2:hover ~ .redLine4 {
+    height: 92px;
+    top: 450px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a3:hover ~ .redLine1 {
+    height: 82px;
+    top: 644px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a3:hover ~ .redLine2 {
+    height: 82px;
+    top: 644px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a3:hover ~ .redLine4 {
+    height: 82px;
+    top: 644px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a4:hover ~ .redLine3 {
+    height: 59px;
+    top: 819px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a4:hover ~ .redLine1 {
+    height: 59px;
+    top: 819px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
+
+.a4:hover ~ .redLine2 {
+    height: 59px;
+    top: 819px;
+    border-left: 4px #e41b13 solid;
+    width: 4px;
+    position: absolute;
+    transition: 1s 0.5s;
+}
