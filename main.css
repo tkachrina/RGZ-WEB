@@ -4,6 +4,26 @@ body {
     background-color: #d6d6d6;
   }
 
+main {
+    margin: -52vw 23.5% 0 23.5%;
+    background-color: white;
+    width: 53%;
+    height: 222vw;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    height: 3.5vw;
+    position: relative;
+    margin-top: 2.5vw;
+    border-top: 3px red solid;
+    text-align: center;
+    color: gray;
+    bottom: -19px;
+    font-size: 12px;
+}
+
 aside {
     width: 10%;
     height:100vh;
@@ -14,10 +34,12 @@ aside {
 }
 
 .naming {
-    font-size: 1.15vw;
+    font-size: 1.1vw;
     font-family: sans-serif;
     text-align: center;
     line-height: 22px;
+    color: #497693;
+    font-weight: 600;
 }
 
 .realPosition {
@@ -190,4 +212,20 @@ aside a:hover {
     width: 4px;
     position: absolute;
     transition: 1s 0.5s;
+}
+
+.miniHeader {
+    text-align: center;
+    color:#e41b13;
+    padding-top: 10px;
+}
+
+.content {
+    text-align: justify;
+    font-size: 1vw;
+    color: black;
+    padding: 0 50px 10px 50px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    line-height: 2;
 }
