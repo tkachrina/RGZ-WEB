@@ -229,3 +229,39 @@ aside a:hover {
     font-family: sans-serif;
     line-height: 2;
 }
+
+#stockTable {
+    color: black;
+    position: absolute;
+    top: 10vw;
+    width: 40%;
+    left: 30%;
+}
+
+#average {
+    top: 35vw;
+    position: relative;
+    border: 3px #e41b13 solid;
+    width: fit-content;
+    font-size: 1vw;
+    left: 16.8vw;
+}
+
+
+#minValue {
+    top: 38.4vw;
+    position: relative;
+    border: 3px #e41b13 solid;
+    width: fit-content;
+    font-size: 1vw;
+    left: 20.1vw;
+}
+
+#maxValue {
+    top: 34.5vw;
+    position: relative;
+    border: 3px #e41b13 solid;
+    width: fit-content;
+    font-size: 1vw;
+    left: 19.5vw;
+}
