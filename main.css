@@ -265,3 +265,11 @@ aside a:hover {
     font-size: 1vw;
     left: 19.5vw;
 }
+
+.contacts {
+    text-align: left;
+    width: 18vw;
+    left: 6vw;
+    position: relative;
+    line-height: 30px;
+}
